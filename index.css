@@ -1,0 +1,166 @@
+:root {
+    --base-color: rgb(4, 226, 255);
+    --secondary-color-one: #FFCC00;
+    --secondary-color-two: #FF4E00;
+}
+body {
+    margin: 0;
+    font-family: fantasy;
+    overflow-x: hidden;
+}
+h3 {
+    color: #000;
+}
+nav {
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    height: 3.7em;
+    background: var(--base-color);
+}
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    padding: 0 1em;
+}
+nav li {
+    list-style: none;
+}
+nav li a {
+    padding: 0;
+    color: #FFF;
+    font-weight: 800;
+    text-decoration: none;
+}
+nav li a:hover {
+    border-bottom: 2px solid var(--secondary-color-one);
+}
+nav li a i {
+    margin: 0 .5em;
+    color: rgb(1, 54, 85);
+}
+main {
+    margin : 53px .13em 2em .13em;
+}
+main h1 {
+    text-align: center;
+    color: blue;
+    animation: change-background 13s ease-in-out infinite 5s;
+}
+main h1 strong {
+    color: var(--secondary-color-two);
+}
+main h2 {
+    margin-bottom: 0;
+    padding: .5em 1em;
+    text-align: center;
+    color: rgb(8, 1, 44);
+}
+section {
+    background: #FFF;
+}
+img {
+    max-width: 420px; 
+}
+footer {
+    background: rgb(1, 1, 34);
+}
+
+footer a {
+        color: #FFF;
+        text-decoration: none;
+}
+@keyframes change-background {
+    0% {
+        background: #FFF;
+    }
+    50% {
+        color: #FFF;
+        background: #000;
+    }
+    100% {
+        background: #FFF;
+    }
+}
+@media screen and (min-width:320px) {
+    .first-navbar {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .first-navbar i {
+        font-size: 1.2em;
+    }
+    h1 {
+        margin-top: 1.8em;
+    }
+    section {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+    footer address {
+        margin: auto;
+        padding: .5em;
+        display: flex;
+        color: #FFF;
+    }
+    .contact-box {
+        margin: 0 .5em;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 30%;
+    }
+    .contact-box p {
+        text-align: center;
+        font-size: .9rem;
+    }
+}
+@media screen and (min-width:480px) {
+    .single-project {
+        margin: 0 1.7em;
+    }
+    footer address {
+        justify-content: space-between;
+    }
+}
+@media screen and (min-width:600px) {
+    .single-project {
+        margin: 0 3em;
+    }
+}
+@media screen and (min-width: 720px) {
+    nav ul {
+        justify-content: flex-start;
+    }
+    nav li a {
+        padding: .1em; 
+    }
+    .first-navbar {
+        flex-direction: row;
+    }
+    .no-the-last::after {
+        content: "|";
+        color: gray;
+    }
+    section {
+        display: grid;
+        grid-template-columns: repeat(2,  1fr);
+        grid-auto-rows: auto;
+    }
+    .single-project {
+        margin: 0 1em;
+    }
+
+}
+@media screen and (min-width: 1024px) {
+    .container {
+        max-width: 1024px;
+        margin: 0 auto;
+    }
+}
