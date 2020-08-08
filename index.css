@@ -20,13 +20,14 @@ nav {
 }
 nav ul {
     display: flex;
-    justify-content: space-around;
+    justify-content: flex-start;
     padding: 0 1em;
 }
 nav li {
     list-style: none;
 }
 nav li a {
+    margin: 0 .1em;
     padding: 0;
     color: #FFF;
     font-weight: 800;
@@ -36,7 +37,6 @@ nav li a:hover {
     border-bottom: 2px solid var(--secondary-color-one);
 }
 nav li a i {
-    margin: 0 .5em;
     color: rgb(1, 54, 85);
 }
 main {
@@ -91,6 +91,9 @@ footer a {
     .first-navbar i {
         font-size: 1.2em;
     }
+    nav ul li {
+        margin: 0 .5em;
+    }
     h1 {
         margin-top: 1.8em;
     }
@@ -143,10 +146,6 @@ footer a {
     }
     .first-navbar {
         flex-direction: row;
-    }
-    .no-the-last::after {
-        content: "|";
-        color: gray;
     }
     section {
         display: grid;
