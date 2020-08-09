@@ -84,12 +84,13 @@ footer a {
 }
 @media screen and (min-width:320px) {
     .first-navbar {
-        display: flex;
-        flex-direction: column;
         text-align: center;
     }
     .first-navbar i {
         font-size: 1.2em;
+    }
+    .first-navbar span {
+            display: none;
     }
     nav ul li {
         margin: 0 .5em;
@@ -145,7 +146,11 @@ footer a {
         padding: .1em; 
     }
     .first-navbar {
+        display: flex;
         flex-direction: row;
+    }
+    .first-navbar span {
+        display: block;
     }
     section {
         display: grid;
