@@ -35,7 +35,7 @@ nav li a {
     text-decoration: none;
 }
 nav li a:hover {
-    border-bottom: 2px solid var(--secondary-color-two);
+    border-bottom: 2px solid blue;
 }
 main {
     margin : 53px .13em 2em .13em;
