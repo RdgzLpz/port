@@ -14,6 +14,8 @@ h3 {
 nav {
     position: fixed;
     top: 0;
+    right: 0;
+    left: 0;
     width: 100vw;
     height: 3.7em;
     background: var(--base-color);
@@ -36,13 +38,10 @@ nav li a {
 nav li a:hover {
     border-bottom: 2px solid var(--secondary-color-one);
 }
-nav li a i {
-    color: rgb(1, 54, 85);
-}
 main {
     margin : 53px .13em 2em .13em;
 }
-main h1 {
+#main-h1 {
     text-align: center;
     color: blue;
     animation: change-background 13s ease-in-out infinite 5s;
@@ -87,16 +86,24 @@ footer a {
         text-align: center;
     }
     .first-navbar i {
-        font-size: 1.2em;
+        margin:  .5em;
+        font-size: 1.3em;
+        color: rgb(185, 45, 45)
     }
     .first-navbar span {
             display: none;
     }
+    nav ul {
+        margin: .5em;
+        justify-content: space-around;
+        align-content: center;
+    }
     nav ul li {
-        margin: 0 .5em;
+        margin: 0 .25em;
     }
     h1 {
-        margin-top: 1.8em;
+        margin-top: 2em;
+        height: 3rem;
     }
     section {
         display: flex;
@@ -110,8 +117,13 @@ footer a {
     footer address {
         margin: auto;
         padding: .5em;
-        display: flex;
         color: #FFF;
+    }
+    address p {
+        text-align: center;
+    }
+    .networks {
+        display: flex;
     }
     .contact-box {
         margin: 0 .5em;
@@ -126,6 +138,14 @@ footer a {
     }
 }
 @media screen and (min-width:480px) {
+    .first-navbar {
+        display: flex;
+        flex-direction: row;
+    }
+    .first-navbar span {
+        margin:  .6em 0;
+        display: block;
+    }
     .single-project {
         margin: 0 1.7em;
     }
@@ -145,13 +165,7 @@ footer a {
     nav li a {
         padding: .1em; 
     }
-    .first-navbar {
-        display: flex;
-        flex-direction: row;
-    }
-    .first-navbar span {
-        display: block;
-    }
+
     section {
         display: grid;
         grid-template-columns: repeat(2,  1fr);
