@@ -29,10 +29,9 @@ nav li {
     list-style: none;
 }
 nav li a {
-    margin: 0 .1em;
+    margin: 0;
     padding: 0;
     color: #FFF;
-    font-weight: 800;
     text-decoration: none;
 }
 nav li a:hover {
@@ -82,16 +81,20 @@ footer a {
     }
 }
 @media screen and (min-width:320px) {
-    .first-navbar {
+     .first-navbar {
+        display: flex;
+        flex-direction: row;
         text-align: center;
     }
     .first-navbar i {
-        margin:  .5em;
+        margin:  .5em .1em;
         font-size: 1.3em;
         color: rgb(185, 45, 45)
     }
     .first-navbar span {
-            display: none;
+        margin:  .6em 0;
+        display: block;
+        font-size: 1rem;
     }
     nav ul {
         margin: .5em;
@@ -138,14 +141,6 @@ footer a {
     }
 }
 @media screen and (min-width:480px) {
-    .first-navbar {
-        display: flex;
-        flex-direction: row;
-    }
-    .first-navbar span {
-        margin:  .6em 0;
-        display: block;
-    }
     .single-project {
         margin: 0 1.7em;
     }
