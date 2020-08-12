@@ -126,7 +126,7 @@ footer a {
     }
     h1 {
         margin: .7em 0 0 0;
-        padding: 1em;
+        padding: 1em 0;
         height: 10%;
         text-align: center;
     }
@@ -177,6 +177,12 @@ footer a {
     }
 }
 @media screen and (min-width:600px) {
+    #main-intro p {
+        font-size: 1.15rem;
+    }
+    #main-intro button {
+        font-size: 1rem;
+    }
     .single-project {
         margin: 0 3em;
     }
