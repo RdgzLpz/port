@@ -39,7 +39,7 @@ nav li a:hover {
     border-bottom: 2px solid blue;
 }
 main {
-    margin : 53px .13em 2em .13em;
+    margin : 53px 0 0 0;
 }
 #main-intro {
     display: flex;
@@ -59,9 +59,8 @@ main {
     color: var(--secondary-color-two);
 }
 #main-intro p {
-    margin: 0 2em;
     padding-bottom: 2em;
-    font-size: 1.3rem;
+    font-size: 1.5rem;
     text-align: center;
     color: lightgray;
 }
@@ -72,6 +71,7 @@ main {
     margin: 1.5em auto;
     border: .1px solid var(--base-color);
     padding: 1em;
+    font-size: 1.15rem;
     background: none;
     cursor: pointer;
 }
@@ -86,6 +86,7 @@ main h2 {
     color: rgb(8, 1, 44);
 }
 section {
+    padding: 2em 0;
     background: rgb(34, 34, 34);
 }
 img {
@@ -131,6 +132,9 @@ footer a {
     }
     h2 {
         margin-top: 1.2em;
+    }
+    #main-intro p {
+        margin: 0 1em;
     }
     section {
         display: flex;
@@ -184,7 +188,9 @@ footer a {
     nav li a {
         padding: .1em; 
     }
-
+    #main-intro p {
+        margin: 0 2em;
+    }
     section {
         display: grid;
         grid-template-columns: repeat(2,  1fr);
