@@ -41,18 +41,23 @@ nav li a:hover {
 main {
     margin : 53px 0 0 0;
 }
+#main-intro-container {
+    padding: 0;
+    max-width: 1024px;
+    height: auto;
+    background-image: url('./img/main-image.webp');
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
 #main-intro {
+    padding: 0;
     display: flex;
     flex-direction: column;
     width: 100vw;
-    max-width: 1024px;
-}
-#main-intro {
-    background: url('./img/main-image.jpeg');
-    width: 100%;
-    height: auto;
+    background: rgb(0, 0, 0, .5);
 }
 #main-h1 {
+    margin-top: 0;
     font-size: 2.8rem;
     text-align: center;
     color: lightblue;
@@ -62,8 +67,7 @@ main {
 }
 #main-intro p {
     padding-bottom: 2em;
-    font-size: 1.5rem;
-    text-align: center;
+    width: 100%;
     color: lightgray;
 }
 #main-intro span {
