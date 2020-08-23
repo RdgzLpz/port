@@ -48,7 +48,9 @@ main {
     max-width: 1024px;
 }
 #main-intro {
-    background: rgb(0, 0, 41);
+    background: url('./img/main-image.jpeg');
+    width: 100%;
+    height: auto;
 }
 #main-h1 {
     font-size: 2.8rem;
