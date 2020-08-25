@@ -47,9 +47,13 @@ main {
 #main-intro-container {
     padding: 0;
     max-width: 1024px;
-    background-image: url('./img/main-image.webp');
+    background-image: url('./img/main-image.jpg');
+    height: 50%;
+    /* Position and center the image to scale nicely on all screens */
+    background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+    position: relative;
 }
 #main-intro {
     padding: 0;
