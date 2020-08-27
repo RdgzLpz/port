@@ -149,11 +149,11 @@ address p {
         margin: 0 .25em;
     }
     #main-intro-container {
-        background-image: url('./img/web-development.png');
+        background-image: url('./img/software-developer.jpeg');
     }
     #main-intro {
         height: 40em;
-        background: rgb(0, 0, 0, .95);
+        background: rgb(0, 0, 0, .7);
     }
     #main-h1 {
         margin: 1em;
