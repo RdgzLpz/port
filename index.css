@@ -156,6 +156,9 @@ address p {
     #main-h1 {
         margin: 1em;
     }
+    #main-intro p {
+        background: rgb(0, 0, 0, .7);
+    }
     h2 {
         margin-top: 1.2em;
     }
@@ -187,6 +190,9 @@ address p {
 @media screen and (min-width:480px) {
     #main-intro {
         height: 30em;
+    }
+    #main-intro p {
+        background: none;
     }
     .single-project {
         margin: 0 1.7em;
