@@ -148,12 +148,9 @@ address p {
     nav ul li {
         margin: 0 .25em;
     }
-    #main-intro-container {
-        background-image: url('./img/background-image-phone.jpeg');
-    }
     #main-intro {
         height: 40em;
-        background: rgb(0, 0, 0, .8);
+        background: rgb(0, 0, 0, .9);
     }
     #main-h1 {
         margin: 1em;
