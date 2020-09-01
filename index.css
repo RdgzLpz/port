@@ -19,7 +19,7 @@ nav {
     top: 0;
     right: 0;
     left: 0;
-    width: 100%;
+    width: 100%x;
     height: 3.7em;
     background: rgb(17, 17, 17);
 }
@@ -150,10 +150,10 @@ address p {
     }
     #main-intro {
         height: 40em;
-        background: rgb(0, 0, 0, .9);
+        background: #151515;
     }
     #main-h1 {
-        margin: 1em;
+        margin: 1Sem;
     }
     h2 {
         margin-top: 1.2em;
