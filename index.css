@@ -9,9 +9,7 @@ body {
     overflow-x: hidden;
 }
 h3 {
-    border-radius: 7px;
-    background: rgb(0, 0, 0, .7);
-    color: yellow;
+    color: gray;
     text-align: center;
 }
 nav {
