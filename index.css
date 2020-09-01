@@ -149,6 +149,7 @@ address p {
         margin: 0 .25em;
     }
     #main-intro {
+	margin-top: 1em;
         height: 40em;
         background: #171717;
     }
