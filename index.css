@@ -9,6 +9,7 @@ body {
     overflow-x: hidden;
 }
 h3 {
+    margin: 0 1em;
     border-radius: 3px;
     background: gray;
     color: var(--base-color);
