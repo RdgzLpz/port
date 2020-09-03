@@ -9,8 +9,10 @@ body {
     overflow-x: hidden;
 }
 h3 {
-    margin: 0 1em;
+    margin-right: 1em;
+    margin-left: 1rem;
     border-radius: 3px;
+    padding: .5em;
     background: gray;
     color: var(--base-color);
     text-align: center;
