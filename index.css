@@ -9,7 +9,9 @@ body {
     overflow-x: hidden;
 }
 h3 {
-    color: gray;
+    border-radius: 3px;
+    background: gray;
+    color: var(--base-color);
     text-align: center;
 }
 nav {
@@ -45,14 +47,11 @@ main {
     margin : 53px 0 0 0;
 }
 #main-intro-container {
-    margin-top: 1em;
     padding: 0;
     max-width: 1024px;
     height: 50%;
-    /* Position and center the image to scale nicely on all screens */
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
+
+    
 }
 #main-intro {
     padding: 0;
@@ -215,9 +214,14 @@ address p {
     }
     #main-intro-container {
         background-image: url('./img/main-image.jpg');
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
     }
     #main-intro {
+	margin-top: 0;
         height: 25em;
+	background: rgb(0, 0, 0, .6);
     }
     #main-h1 {
         margin: 1.5em 0;
@@ -252,6 +256,5 @@ address p {
     }
     #main-intro {
         height: 25em;
-        background: rgb(0, 0, 0, .6);
     }
 }
