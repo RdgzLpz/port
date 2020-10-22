@@ -6,10 +6,15 @@ footerYear.innerHTML = new Date( ).getFullYear( );
 
 // Setting go up button 
 window.addEventListener( 'scroll', ( ) => {
-    if ( pageYOffset > 600 ) 
+    const nav = document.querySelector('nav');
+    if ( pageYOffset > 600 ) {
+ 	nav.style.borderBottom = '.1px solid red';
         icon.style.display = 'block';
-    else 
+    }
+    else {
+        nav.style.borderBottom = 'none';
         icon.style.display = 'none'; 
+    }
 } )
 
 setInterval( ( ) => {
