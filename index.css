@@ -14,9 +14,9 @@ body {
 }
 h3 {
     margin: auto 1em 0 1rem;
+    border-bottom: .5px dotted blue;
     border-radius: 3px;
     padding: .5em;
-    background: gray;
     color: var(--base-color);
     text-align: center;
 }
@@ -116,9 +116,11 @@ main h2 {
 }
 section {
     padding: 2em 0;
-    background: rgb(255, 254, 254);
 }
-
+.single-project {
+    box-shadow: rgb(180, 180, 180) 1px 1px 7px .5px;
+    margin: .5em;
+}
 #go-up-button {
     display: none;
     position: fixed;
@@ -249,7 +251,7 @@ address p {
         display: flex;
         flex-direction: column;
         justify-content: center;
-        background: rgb(243, 243, 243);
+        background: rgb(231, 231, 231);
     }
     #go-up-button {
         right: 10px; 
@@ -285,7 +287,6 @@ address p {
     .single-project {
         margin: 0 1.7em;
         padding-top: 1em;
-        box-shadow: rgb(180, 180, 180) 1px 1px 7px .5px;
     }
     footer address {
         justify-content: space-between;
