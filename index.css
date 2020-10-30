@@ -119,7 +119,6 @@ section {
 }
 .single-project {
     box-shadow: rgb(180, 180, 180) 1px 1px 7px .5px;
-    margin: .5em;
 }
 #go-up-button {
     display: none;
@@ -213,6 +212,11 @@ address p {
 }
    
 /* Phones */
+@media screen and (max-width: 600px) {
+    .single-project {
+        margin: .5em;
+    }
+}
 @media screen and (min-width:320px) {
      .first-navbar {
         display: flex;
